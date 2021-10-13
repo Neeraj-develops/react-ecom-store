@@ -1,0 +1,17 @@
+.product-listing {
+    height: 100%;
+    width: 85vw;
+    margin: auto;
+    /* background-color: coral; */
+}
+
+.productlisting-wapper {
+    margin: auto;
+    width: 1000px;
+    /* height: 100%; */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3, minmax(250px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(250px, 1fr));
+}

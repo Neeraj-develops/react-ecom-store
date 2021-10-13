@@ -1,0 +1,15 @@
+.cart-columns {
+    width: 80vw;
+    /* background-color: blueviolet; */
+    height: max-content;
+    margin: auto;
+    justify-content: space-evenly;
+    border-bottom: 1px solid black;
+}
+
+.cart-columns-heading {
+    font-size: 2rem;
+    font-weight: 500;
+    /* width: 16.66%; */
+    margin: 0 4rem;
+}

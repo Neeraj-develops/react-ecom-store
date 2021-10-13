@@ -1,0 +1,109 @@
+.details {
+    width: 90vw;
+    margin: auto;
+    height: 90vh;
+    /* background-color: rgb(241, 237, 245); */
+}
+
+.details-head {
+    font-size: 4rem;
+    font-family: var(--fontTwo);
+    margin-bottom: 1rem;
+    letter-spacing: .1rem;
+}
+
+.details-wapper {
+    /* background-color: rgb(135, 86, 180); */
+    width: 80vw;
+}
+
+.details-name {
+    font-size: 2.5rem;
+    font-family: var(--fontTwo);
+    letter-spacing: .1rem;
+    margin-top: 3rem;
+}
+
+.price-company {
+    /* background-color: cornflowerblue; */
+    width: 35rem;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.text-img-wapper {
+    /* background-color: chartreuse; */
+    width: 70vw;
+    padding: 0rem 5rem;
+    height: 90%;
+}
+
+.details-img {
+    height: 40rem;
+}
+
+.detail-text {
+    /* background-color: chocolate; */
+    padding: 0 3rem;
+    height: max-content;
+    width: 60rem;
+    margin-left: -5rem;
+    height: max-content;
+    margin-top: 4rem;
+}
+
+.details-company {
+    font-size: 2.5rem;
+    font-family: var(--fontTwo);
+    font-weight: 400;
+    letter-spacing: .1rem;
+}
+
+.detail-info {
+    font-size: 1.39rem;
+    font-weight: 300;
+    letter-spacing: .1rem;
+}
+
+.detail-price {
+    font-size: 2.5rem;
+}
+
+.details-button {
+    /* background-color: violet; */
+    margin: 1rem;
+    width: max-content;
+    height: max-content;
+}
+
+.goback-link {
+    font-size: 2rem;
+    background-color: rgb(25, 236, 215);
+    color: white;
+    margin: 1rem;
+    padding: .2rem 1rem;
+    border-radius: .5rem;
+    border: 2px solid transparent;
+}
+
+.goback-link:hover {
+    background-color: white;
+    color: rgb(25, 236, 215);
+    border: 2px solid rgb(25, 236, 215);
+}
+
+.details-btn {
+    font-size: 2rem;
+    background-color: white;
+    color: rgb(25, 236, 215);
+    margin: 1rem;
+    padding: .5rem 1rem;
+    outline: none;
+    border: 2px solid rgb(25, 236, 215);
+    border-radius: .5rem;
+}
+
+.details-btn:hover {
+    background-color: rgb(25, 236, 215);
+    color: white;
+}

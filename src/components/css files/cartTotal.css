@@ -1,0 +1,46 @@
+.carttotal {
+    /* background-color: blueviolet; */
+    width: 85vw;
+    margin: auto;
+    /* justify-content: flex-end; */
+    align-items: flex-end;
+    padding: 0 5rem;
+    margin-bottom: 2rem;
+}
+
+.cartTotal-btn, .payment-btn {
+    font-weight: 700;
+    border: 1.5px solid red;
+    background-color: rgba(255, 0, 0, .2);
+    width: max-content;
+    height: max-content;
+    padding: .5rem 1rem;
+    font-size: 2rem;
+    color: red;
+    border-radius: .5rem;
+    cursor: pointer;
+    font-family: var(--fontTwo);
+}
+
+.cartTotal-btn:hover {
+    background-color: rgba(255, 0, 0, .5);
+    transition: .3s ease;
+}
+
+.cartTotal-subTotal, .cartTotal-tax, .cartTotal-total {
+    font-size: 2.5rem;
+    font-family: var(--fontTwo);
+    margin: .1rem 0;
+}
+
+.payment-btn {
+    border: 2px solid rgb(255, 255, 0);
+    background-color: rgba(255, 255, 0, .8);
+    color: rgb(22, 21, 21);
+    font-weight: 400;
+}
+
+.payment-btn:hover {
+    background-color: rgb(255, 255, 8);
+    transition: .3s ease;
+}

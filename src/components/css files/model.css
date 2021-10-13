@@ -1,0 +1,99 @@
+.model-container {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0%;
+    right: 0;
+    background-color: rgba(0, 0, 0, .5);
+    transform: scale(1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s ease;
+}
+
+.model-container-false {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .5);
+    transform: scale(1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s ease;
+}
+
+.model-content-wapper {
+    background-color: white;
+}
+
+.model-price-company {
+    /* background-color: rgb(236, 186, 177); */
+    width: 30rem;
+    justify-content: space-between;
+}
+
+.model-added {
+    font-family: var(--fontTwo);
+    font-size: 3rem;
+}
+
+.model-img {
+    width: 30rem;
+    margin: auto;
+}
+
+.model-title {
+    font-family: var(--fontTwo);
+    font-size: 2rem;
+}
+
+.model-price {
+    font-family: var(--fontTwo);
+    font-size: 2rem;
+}
+
+.model-btn-wapper {
+    /* background-color: violet; */
+    width: max-content;
+    height: max-content;
+    margin: .5rem 0;
+}
+
+.model-link-1, .model-link-2 {
+    font-size: 2rem;
+    padding: .5rem;
+    letter-spacing: .1rem;
+}
+
+.model-link-1 {
+    background-color: rgb(23, 144, 214);
+    color: white;
+    border: 2px solid rgb(23, 144, 214);
+    border-radius: .7rem;
+    margin: .5rem 0;
+}
+
+.model-link-1:hover {
+    background-color: white;
+    color: rgb(23, 144, 214);
+    border: 2px solid rgb(23, 144, 214);
+    transition: .3s ease-in-out;
+}
+
+.model-link-2 {
+    background-color: rgb(236, 214, 17);
+    color: white;
+    border: 2px solid rgb(236, 214, 17);
+    border-radius: .7rem;
+}
+
+.model-link-2:hover {
+    background-color: white;
+    color: rgb(236, 214, 17);
+    border: 2px solid rgb(236, 214, 17);
+    transition: .3s ease-in-out;
+}
