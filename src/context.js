@@ -88,7 +88,7 @@ export default class ProductProvider extends Component {
   };
   decrement = (id) => {
     let tempPro = [...this.state.cart];
-    let selectedProduct = tempPro.filter((ele) => ele.id === id);
+    tempPro.filter((ele) => ele.id === id);
 
     let index = tempPro.indexOf(this.getItems(id));
     let product = tempPro[index];
