@@ -1,0 +1,10 @@
+.cart-link {
+    width: max-content;
+    height: max-content;
+    background-color: turquoise;
+    color: black;
+    font-family: var(--fontTwo);
+    padding: .5rem 3rem;
+    font-size: 2rem;
+    margin-top: 1rem;
+}

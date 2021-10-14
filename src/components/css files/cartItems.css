@@ -1,90 +1,81 @@
 .cartitems {
-    /* background-color: blueviolet; */
-    width: 80vw;
-    /* background-color: blueviolet; */
-    height: max-content;
-    justify-content: space-evenly;
-    margin: .5rem auto;
+    /* background-color: tomato; */
+    width: 30rem;
+    height: 30rem;
+    margin: 2rem;
+    border-radius: 1rem;
+    position: relative;
 }
 
 .cartitems-img {
-    width: 10rem;
-    /* background-color: rgb(146, 114, 177); */
-    margin: 0rem 5rem;
-    text-align: center;
-    width: 16.66%;
+    width: 15rem;
+}
+
+.remove-item {
+    position: absolute;
+    top: 4%;
+    right: 4%;
+    width: max-content;
+    height: max-content;
+    border: transparent;
+    background-color: transparent;
+    font-size: 2rem;
+    color: rgba(255, 0, 0, .5);
+    cursor: pointer;
+}
+
+.remove-item:hover {
+    color: red;
+    transition: .3s ease;
+}
+
+.title-proce-wapper {
+    /* background-color: thistle; */
+    width: 28rem;
+    justify-content: space-between;
+    padding: 0 1rem;
+    margin: 1rem 0;
 }
 
 .cartitems-title {
-    /* margin-left: 4rem; */
-    /* background-color: brown; */
-    margin: 0rem 2rem;
-    font-size: 1.5rem;
-    text-align: center;
-    width: 16.66%;
+    font-size: 1.8rem;
+    font-weight: 400;
     font-family: var(--fontTwo);
 }
 
 .cartitems-price {
-    /* background-color: cadetblue; */
-    margin: 0rem 5rem;
-    text-align: center;
-    width: 16.66%;
     font-family: var(--fontTwo);
-    transform: translateX(-20%);
 }
 
 .inc-dec-wapper {
-    /* background-color: coral; */
-    /* margin: 0rem 5rem; */
-    text-align: center;
-    width: 16.66%;
-    font-family: var(--fontTwo);
-    justify-content: space-between;
-    transform: translateX(-10%);
-    /* margin-left: 1rem; */
+    width: max-content;
+    height: max-content;
+    /* background-color: rgb(44, 44, 16); */
 }
 
 .increment, .decrement {
     width: max-content;
     height: max-content;
-    padding: .2rem 1.5rem;
     font-size: 2rem;
-    background-color: rgba(0, 0, 0, .5);
-    border: 1px solid black;
-    border-radius: .5rem;
-}
-
-.increment:hover, .decrement:hover {
-    background-color: rgba(255, 255, 255, 0.5);
-    /* border: 1px solid black; */
+    padding: .2rem 2rem;
+    background-color: rgba(0, 0, 0, .3);
+    margin: 0 .5rem;
+    border: 1px solid transparent;
+    border: 1rem;
 }
 
 .count-value {
     font-size: 2rem;
-    margin: 0 1rem;
+    font-family: var(--fontTwo);
+    margin: 0 .5rem;
 }
 
-.remove-item {
-    /* background-color: crimson; */
-    /* margin: 0rem 5rem; */
-    text-align: center;
-    width: 16.66%;
-    margin-left: 5rem;
-    background-color: transparent;
-    color: rgb(240, 65, 65);
-    font-size: 2.5rem;
-    border: none;
-}
-
-.remove-item:hover {
-    color: red;
+.increment:hover, .decrement:hover {
+    background-color: rgba(0, 0, 0, .5);
+    transition: .3s ease;
 }
 
 .cartitems-total {
-    /* background-color: darkgreen; */
-    margin: 0rem 5rem;
-    text-align: center;
-    width: 16.66%;
-    font-family: var(--fontTwo);
+    font-size: 2.5rem;
+    margin: 1rem 0;
 }

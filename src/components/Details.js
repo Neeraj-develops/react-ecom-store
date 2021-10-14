@@ -2,10 +2,12 @@ import React from 'react';
 import { ProductConsumer } from '../context';
 import { Link } from 'react-router-dom';
 import './css files/details.css';
+import Title from './Title';
 const Details = () => {
   return (
     <div className="details flex-column">
-      <h1 className="details-head">Mobile-Details</h1>
+      <Title name={'Mobile-Details'} />
+
       <ProductConsumer>
         {(value) => {
           const { id, title, img, price, company, info, inCart } = value.detailProduct;

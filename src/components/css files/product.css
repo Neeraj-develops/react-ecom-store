@@ -60,6 +60,9 @@
     justify-content: space-between;
 }
 
-.product-heading {}
-
-.product-heading-1 {}
+@media screen and (max-width: 1200px) {
+    .product-btn {
+        right: 0rem;
+        top: 0rem;
+    }
+}

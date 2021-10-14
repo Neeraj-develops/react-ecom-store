@@ -76,7 +76,7 @@ export default class ProductProvider extends Component {
     let product = tempPro[index];
 
     product.count = product.count + 1;
-    product.total = product.price * product.count + 1;
+    product.total = product.price * product.count;
     this.setState(
       () => {
         return { cart: tempPro };
@@ -93,10 +93,10 @@ export default class ProductProvider extends Component {
     let index = tempPro.indexOf(this.getItems(id));
     let product = tempPro[index];
 
-    if (product.count > 1) {
+    if (product.count >= 1) {
       product.count = product.count - 1;
     }
-    product.total = product.price * product.count + 1;
+    product.total = product.price * product.count;
     this.setState(
       () => {
         return { cart: tempPro };

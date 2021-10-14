@@ -19,6 +19,9 @@ const CartTotal = ({ value }) => {
       <h1 className="cartTotal-tax">Tax : ${cartTax}</h1>
       <h1 className="cartTotal-total">Total : ${cartTotal}</h1>
       <button className="payment-btn">Make Payment</button>
+      <Link className="cart-link" to="/">
+        Go Back
+      </Link>
     </div>
   );
 };

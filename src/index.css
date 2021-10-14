@@ -46,3 +46,45 @@ code {
   align-items: center;
   flex-direction: column;
 }
+
+@media screen and (max-width: 780px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  html {
+    font-size: 57%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 53%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  html {
+    font-size: 40%;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  html {
+    font-size: 35%;
+  }
+}
+
+@media screen and (max-width: 290px) {
+  html {
+    font-size: 30%;
+  }
+}

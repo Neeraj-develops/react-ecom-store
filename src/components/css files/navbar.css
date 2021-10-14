@@ -1,10 +1,10 @@
 .navbar {
+    width: 100%;
     background-color: rgb(92, 92, 189);
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: sticky;
-    width: 100%;
     top: 0;
     z-index: 50;
 }
@@ -70,5 +70,22 @@
     width: 15rem;
     border-radius: 10px;
     transition: .3s ease;
+    position: relative;
     /* background-color: chartreuse; */
+}
+
+.cart-number {
+    font-size: 1.2rem;
+    font-family: var(--fontOne);
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 2.5;
+    margin-left: .8rem;
+    transition: .3s ease;
+    /* background-color: violet; */
+}
+
+.nav-cart:hover .cart-number {
+    color: white;
+    transition: .3s ease;
 }

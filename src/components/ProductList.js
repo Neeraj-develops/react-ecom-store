@@ -8,7 +8,7 @@ const ProductList = () => {
   return (
     <div className="product-listing ">
       <Title name="In Demand Moblies" />
-      <div className="productlisting-wapper">
+      <div className="productlisting-wapper flex-row">
         <ProductConsumer>
           {(value) => {
             return value.products.map((product) => {

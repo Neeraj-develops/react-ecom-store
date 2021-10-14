@@ -1,6 +1,6 @@
 .carttotal {
     /* background-color: blueviolet; */
-    width: 85vw;
+    width: 80vw;
     margin: auto;
     /* justify-content: flex-end; */
     align-items: flex-end;
@@ -43,4 +43,10 @@
 .payment-btn:hover {
     background-color: rgb(255, 255, 8);
     transition: .3s ease;
+}
+
+@media screen and (max-width: 780px) {
+    .carttotal {
+        align-items: center;
+    }
 }
