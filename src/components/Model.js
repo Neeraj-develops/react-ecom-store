@@ -8,8 +8,8 @@ const Model = () => {
     <div>
       <ProductConsumer>
         {(value) => {
-          const { modalOpen, openModel, closeModel } = value;
-          const { img, title, price, company } = value.modelProduct;
+          const { modalOpen, closeModel } = value;
+          const { img, title, price } = value.modelProduct;
 
           if (!modalOpen) {
             return null;

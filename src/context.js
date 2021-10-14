@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { storeProducts, detailProduct } from './data';
+import { storeProducts } from './data';
 
 const ProductContext = React.createContext();
 export default class ProductProvider extends Component {
@@ -70,7 +70,7 @@ export default class ProductProvider extends Component {
 
   increment = (id) => {
     let tempPro = [...this.state.cart];
-    let selectedProduct = tempPro.filter((ele) => ele.id === id);
+    tempPro.filter((ele) => ele.id === id);
 
     let index = tempPro.indexOf(this.getItems(id));
     let product = tempPro[index];
